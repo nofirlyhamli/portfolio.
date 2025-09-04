@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <!-- CSS Style -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Boxicons -->
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="#" class="logo">Portfolio.</a>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <section class="home" id="home">
+            <div class="home-info">
+                <h1>Nofirly Hamli</h1>
+                <h2>I'm a <span id="typed"></span>
+                    <span class="skill" data-text="GIS Analyst"></span>
+                    <span class="skill" data-text="Surveyor"></span>
+                    <span class="skill" data-text="Frontend Developer"></span>
+                    <span class="skill" data-text="Designer"></span>
+                </h2>
+                <p>Skilled GIS Analyst with extensive experience in cartography
+                    and advanced proficiency in ArcGIS for a wide range of
+                    mapping applications...</p>
+                <div class="btn-sci">
+                    <a href="pdf/CV_Nofirly_Hamli_English.pdf" class="btn"
+                        download>Download
+                        CV</a>
+                    <div class="sci">
+                        <a href="https://www.github.com/nofirlyhamli"
+                            target="_blank"><i
+                                class='bx bxl-github'></i></a>
+                        <a href="https://www.linkedin.com/in/nofirly-hamli/"
+                            target="_blank"><i class='bx bxl-linkedin'></i></a>
+                        <a href="https://x.com/hamli13874"
+                            target="_blank"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.facebook.com/Nofirly.Hamli/"
+                            target="_blank"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/nofirly"
+                            target="_blank"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="images/profile.png" alt="profile">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1f242d" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,64C274.3,64,343,96,411,122.7C480,149,549,171,617,154.7C685.7,139,754,85,823,74.7C891.4,64,960,96,1029,90.7C1097.1,85,1166,43,1234,37.3C1302.9,32,1371,64,1406,80L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Nofirly Hamli, a GIS Analyst & Frontend Developer
+                passionate about mapping, spatial data, and web technologies. I
+                love solving problems with data visualization and building
+                modern websites with clean design.</p>
+            <br>
+            <p>
+                Skilled GIS Analyst with extensive experience in cartography and
+                advanced proficiency in ArcGIS for a wide range of mapping
+                applications. Highly attentive to detail, adept in spatial data
+                analysis, and recognized as a collaborative team contributor.
+                Eager to bring strong expertise and dedication to the role of
+                Surveyor/GIS professional within your organization.
+            </p>    
+        </section>
+        <!-- Projects  -->
+        <section id="portfolio">
+            <h2>Projects</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <h3>Natuna Regency Land Value Zone Map Update 2024</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <h3>Land Value Zone Map for Detailing in Bandarsyah Village
+                        in 2024</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/project5.jpg" alt="Project 3">
+                    <h3>Complete Systematic Land Registration Review Map (PTSL)
+                        for 2024</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="service">
+            <h2>My Services</h2>
+            <div class="service-container">
+                <div class="service-box">
+                    <i class='bx bx-map'></i>
+                    <h3>GIS Analysis</h3>
+                    <p>Spatial data analysis, mapping, and visualization for
+                        various industries.</p>
+                </div>
+                <div class="service-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>Responsive and modern websites built with HTML, CSS, and
+                        JavaScript.</p>
+                </div>
+                <div class="service-box">
+                    <i class='bx bx-paint'></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Clean and intuitive interface designs that improve user
+                        experience.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message"
+                    required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>© 2025 Nofirly Hamli. All Rights Reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
